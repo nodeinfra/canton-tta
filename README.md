@@ -23,6 +23,7 @@ tooling so other teams can stand up the same stack and reproduce its metrics.
 
 - [Reference-deployment outline](docs/reference-deployment-outline.md): the stack to be verified and the metrics-reproduction plan
 - [NDA carve-out plan](docs/nda-carve-out.md): what is and is not open-sourced, as confirmed with TTA
+- [Milestone evidence](docs/evidence/): redacted TTA correspondence (not covered by the Apache 2.0 license)
 
 ## Planned contents
 

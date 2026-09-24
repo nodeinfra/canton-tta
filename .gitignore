@@ -4,6 +4,8 @@ tta/
 *.hwp
 *.hwpx
 TTA-*.pdf
+# Exception: redacted milestone evidence only (see docs/evidence/README.md)
+!docs/evidence/TTA-*_redacted*.pdf
 *성적서*
 *시험합의서*
 *견적서*

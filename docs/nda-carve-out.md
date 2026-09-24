@@ -3,8 +3,7 @@
 This plan sets out what this project will publish, what it will cite publicly, and what stays
 confidential under TTA's terms. Nodeinfra proposed these categories to TTA, and TTA confirmed
 them in writing on 2026-09-23. The one change TTA asked for is marked below. A redacted copy of
-TTA's reply is attached to the
-[Milestone 1 issue](https://github.com/canton-foundation/canton-dev-fund/issues/814).
+TTA's reply is in [`docs/evidence/`](evidence/).
 
 ## 1. Published: open source under Apache 2.0
 
@@ -20,6 +19,9 @@ None of it reproduces TTA evaluation material.
 | Test harness | Automated tests for the reliability and security criteria. **TTA test item names, check items, and expected values are removed before release.** | M2 |
 | Engineering post-mortem | Problems found during verification, the fixes, and deployment lessons | M2 |
 | Reference-deployment outline and this plan | [outline](reference-deployment-outline.md) | M1 |
+
+Redacted TTA correspondence in [`docs/evidence/`](evidence/) is milestone evidence, not a
+published artifact. It is not covered by the Apache 2.0 license.
 
 ## 2. Cited publicly: press releases, blog posts, talks
 
@@ -85,7 +87,8 @@ verification works as follows:
 1. **Public announcement.** Nodeinfra publishes an announcement that the Canton private
    synchronizer obtained TTA BRV, with the issue date and headline figures. As TTA requires,
    the text is reviewed and approved by TTA's External Relations Department before publication.
-2. **TTA's written approval.** TTA's approval of that text is attached, redacted, to the
+2. **TTA's written approval.** TTA's approval of that text is published, redacted, in
+   [`docs/evidence/`](evidence/) and linked from the
    [Milestone 2 issue](https://github.com/canton-foundation/canton-dev-fund/issues/815),
    alongside the published announcement. It is TTA's own written confirmation of the result.
 3. **Direct confirmation.** The Committee may also confirm the issuance directly with TTA; we
