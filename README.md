@@ -1,7 +1,7 @@
 # canton-tta
 
-Reference deployment for taking the **Canton private synchronizer** through Korea's TTA
-[Blockchain Reliability Verification](https://www.tta.or.kr/eng/contents?contentId=316&key=361)
+Reference deployment for taking the **Canton private synchronizer** through Korea's
+[TTA](https://www.tta.or.kr) Blockchain Reliability Verification
 (BRV, 블록체인 신뢰성 검증), funded by the Canton Foundation Development Fund
 ([proposal #419](https://github.com/canton-foundation/canton-dev-fund/pull/419)).
 
