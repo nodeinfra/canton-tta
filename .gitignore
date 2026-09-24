@@ -1,0 +1,84 @@
+# --- TTA-confidential material: never commit (see docs/nda-carve-out.md §3) ---
+confidential/
+tta/
+*.hwp
+*.hwpx
+TTA-*.pdf
+*성적서*
+*시험합의서*
+*견적서*
+
+# --- Secrets and keys ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.crt
+*.csr
+secrets/
+credentials*
+*.tfvars
+!*.tfvars.example
+
+# --- Canton / Daml runtime output ---
+log/
+logs/
+*.log
+.daml/
+canton-*.tar.gz
+*.dump
+data/
+pgdata/
+
+# --- Benchmark and test run output (publish curated results under docs/ instead) ---
+results/
+bench/out/
+tests/out/
+*.jfr
+*.hprof
+heapdump*
+
+# --- JVM / Scala / sbt ---
+target/
+*.class
+.bsp/
+.bloop/
+.metals/
+project/project/
+project/target/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# --- Node ---
+node_modules/
+
+# --- Infrastructure state ---
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+ansible/*.retry
+
+# --- Editors and OS ---
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# --- Local agent / tooling state ---
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+.mcp.json
